@@ -1,0 +1,1 @@
+console.log("Thank you sir for solving our queries. I like your way of teaching.")
