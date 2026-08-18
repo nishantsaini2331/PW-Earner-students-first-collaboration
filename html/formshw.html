@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div >
+      <fieldset style="display: inline-block">
+        <form action="">
+          <h2 style="text-align: center">Novell Services Login</h2>
+          <label for="uname">Username:</label>
+          <input type="text" id="uname" /><br /><br />
+          <label for="pass">Password:</label>
+
+          <input type="password" id="pass" /><br /><br />
+
+          <div style="display:flex;
+          text-align: center;">
+            <div>
+              <label for="city">City Of: <br>Employment </label>
+            </div>
+            <div>
+              <input type="text" id="city" />
+            </div>
+          </div>
+          <br /><br />
+          <label for="webs">Web Server</label>
+
+          <select name="webs" id="webs">
+            <option value="" name="webs">Google.com</option>
+            <option value="" name="webs">Youtube.com</option>
+            <option value="" name="webs">Whatshap.com</option>
+            <option value="" name="webs">Telegram.com</option>
+          </select>
+          <br /><br />
+          <div style="display: flex">
+            <div style="text-align: center">
+              <label for="role"
+                ><br />Please Specify <br />
+                The role:</label
+              >
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="admin"
+                name="role"
+                display="inline-block"
+              />
+              <label for="admin"> Admin</label><br />
+
+              <input type="radio" id="Engineer" name="role" /><label
+                for="Engineer"
+                >Engineer</label
+              ><br />
+
+              <input type="radio" id="Manager" name="role" /><label
+                for="Manager"
+                >Manager</label
+              ><br />
+
+              <input type="radio" id="Guest" name="role" /><label for="Guest"
+                >Guest</label
+              ><br />
+            </div>
+          </div>
+          <br />
+
+          <div style="display: flex">
+            <div style="text-align: center">
+              <label for="sign"
+                ><br />Single Sign-on<br />
+                To The Following:<br
+              /></label>
+            </div>
+            <div>
+              <input type="checkbox" id="Mail" name="sign" /><label for="Mail"
+                >Mail</label
+              ><br />
+
+              <input type="checkbox" id="Payroll" name="sign" /><label
+                for="Payroll"
+                >Payroll</label
+              ><br />
+
+              <input type="checkbox" id="Guest" name="sign" /><label for="Guest"
+                >Self-service</label
+              ><br /><br />
+              <button>Login</button>
+              <button>Reset</button>
+            </div>
+          </div>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>
