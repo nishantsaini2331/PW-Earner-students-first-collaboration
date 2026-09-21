@@ -1,0 +1,1 @@
+console.log("hiii i am komal purohit 1st year student of bsc IT")
