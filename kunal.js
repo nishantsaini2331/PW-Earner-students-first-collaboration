@@ -1,0 +1,1 @@
+console.log("Hello Sir, I'm Kunal, a second-year B.Tech CSE student at MAIT. I'm grateful to be learning from you and I'm looking forward to your guidance. Thank You Sir!")
